@@ -60,8 +60,7 @@ async function fetchImages() {
         createGallery(data.hits);
 
         totalHits = data.totalHits;
-        const totalPages = Math.ceil(totalHits / 15
-        );
+        const totalPages = Math.ceil(totalHits / 15);
 
         if (currentPage < totalPages) {
             showLoadMoreButton();
@@ -92,3 +91,5 @@ function smoothScroll() {
         behavior: 'smooth',
     });
 }
+
+console.log(loadMoreBtn.classList);
