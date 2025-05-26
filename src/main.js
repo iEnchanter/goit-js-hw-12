@@ -91,5 +91,3 @@ function smoothScroll() {
         behavior: 'smooth',
     });
 }
-
-console.log(loadMoreBtn.classList);
